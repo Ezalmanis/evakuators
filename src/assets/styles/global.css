@@ -38,3 +38,17 @@
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+.image-wrapper {
+  max-width: 400px;
+  height: 300px;
+}
+
+.image-wrapper.large{
+  max-width: 640px;
+}
+
+.margin-top-large{
+  margin-top:80px;
+}
+
+

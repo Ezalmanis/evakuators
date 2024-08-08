@@ -198,3 +198,13 @@ Initially created by [onWidget](https://onwidget.com) and maintained by a commun
 ## License
 
 **Qwind** is licensed under the MIT license — see the [LICENSE](https://github.com/onwidget/qwind/blob/main/LICENSE.md) file for details.
+
+## Express Server
+
+This app has a minimal [Express server](https://expressjs.com/) implementation. After running a full build, you can preview the build using the command:
+
+```
+npm run serve
+```
+
+Then visit [http://localhost:8080/](http://localhost:8080/)

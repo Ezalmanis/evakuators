@@ -55,7 +55,7 @@ export default component$((props: Props) => {
         />
         <div class="sm:mx-auto">
           <ItemGrid
-            items={items}
+            pictures={items}
             defaultIcon={IconArrowDownRight}
             classes={{
               panel: "max-w-none",

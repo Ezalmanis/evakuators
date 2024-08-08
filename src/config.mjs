@@ -1,10 +1,10 @@
 export const SITE = {
-  name: "Qwind",
+  name: "Evakuators",
 
   title:
-    "Qwind — Free template for Qwik + Tailwind CSS to build your new website.",
+    "Evakuators",
   description:
-    "Qwind is a free and ready to start template to make your website using Qwik and Tailwind CSS.",
+    "Evakuatora pakalpojumi",
 
   origin: "https://qwind.pages.dev",
   basePathname: "/",

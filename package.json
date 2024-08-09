@@ -26,6 +26,7 @@
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
+    "start": "node server/entry.express",
     "serve": "node server/entry.express",
     "qwik": "qwik"
   },

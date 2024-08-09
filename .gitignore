@@ -43,3 +43,7 @@ lerna-debug.log*
 package-lock.json
 .jampack
 tmp
+
+# Azure
+/azure-functions/**
+!/azure-functions/host.json

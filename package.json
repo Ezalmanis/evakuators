@@ -15,19 +15,19 @@
   "scripts": {
     "build": "qwik build",
     "build.client": "vite build",
-    "dev.open": "vite --open --mode ssr",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
-    "build.server": "vite build -c adapters/express/vite.config.ts",
+    "build.server": "vite build -c adapters/azure-swa/vite.config.ts",
     "build.types": "tsc --incremental --noEmit",
     "deploy": "echo 'Run \"npm run qwik add\" to install a server adapter'",
     "dev": "vite --mode ssr",
     "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
+    "dev.open": "vite --open --mode ssr",
     "fmt": "prettier --write .",
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
+    "serve": "swa start",
     "start": "node server/entry.express",
-    "serve": "node server/entry.express",
     "qwik": "qwik"
   },
   "dependencies": {
@@ -41,6 +41,8 @@
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
+    "@azure/functions": "^3.5.0",
+    "@azure/static-web-apps-cli": "^1.1.1",
     "@builder.io/qwik": "^1.5.6",
     "@builder.io/qwik-city": "^1.5.6",
     "@divriots/jampack": "^0.24.4",

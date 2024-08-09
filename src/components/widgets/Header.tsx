@@ -35,7 +35,7 @@ export default component$(() => {
           <div class="flex items-center md:hidden">
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
               <a
-                href="tel:+37126565320"
+                href="tel:+37122358845"
                 class="btn btn-primary px-5.5 ml-2 w-auto py-2.5 text-sm font-semibold shadow-none md:px-6"
               >
                 Zvanīt
@@ -87,7 +87,7 @@ export default component$(() => {
           <div class="flex w-full items-center justify-between md:w-auto">
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
               <a
-                href="tel:+37126565320"
+                href="tel:+37122358845"
                 class="btn btn-primary px-5.5 ml-2 w-auto py-2.5 text-sm font-semibold shadow-none md:px-6"
               >
                 Zvanīt

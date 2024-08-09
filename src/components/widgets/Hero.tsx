@@ -1,4 +1,4 @@
-import {component$, useComputed$, useSignal} from "@builder.io/qwik";
+import {component$} from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 import HeroImage from "/public/images/cars/varonis.jpg"
 import Stats from "~/components/widgets/Stats";
@@ -14,7 +14,7 @@ interface LocationProps {
 function scrollToGallery() {
   const div = document.getElementById("Galerija");
 
-  const {x, y}:LocationProps = div!=null? {x:div.getBoundingClientRect().x, y:div.getBoundingClientRect().y} : {x:0,y:0}
+  const {x, y}:LocationProps = div!=null? {x:div.getBoundingClientRect().x, y:div.getBoundingClientRect().y-20} : {x:0,y:0}
 
       window.scrollTo({
       top: y,
@@ -25,7 +25,7 @@ function scrollToGallery() {
 
 export default component$(() => {
   return (
-    <section class="relative md:-mt-[76px] not-prose">
+    <section class="relative md:-mt-[76px] lg:-mt-[80px] not-prose">
       <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
         <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
@@ -34,7 +34,7 @@ export default component$(() => {
               <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
                 <span class="sm:whitespace-nowrap text-[#039de1]">Autoevakuators</span>
                 <br class="hidden lg:block"/>{" "}
-                <span class="hidden lg:inline">+371 0000 0000</span>{" "}
+                <span class="hidden lg:inline">+371 2235 8845</span>{" "}
                 <span></span>{" "}
               </h1>
               <div class="max-w-3xl mx-auto lg:max-w-none">

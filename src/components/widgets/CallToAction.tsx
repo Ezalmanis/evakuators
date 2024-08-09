@@ -14,9 +14,9 @@ export default component$(() => {
             <div class="mt-6">
               <a
                 class="btn btn-primary mb-4 sm:mb-0 w-full sm:w-auto"
-                href="tel:+37126565320"
+                href="tel:+37122358845"
               >
-                Zvanīt +371 26565320
+                Zvanīt +371 22358845
               </a>
             </div>
           </div>

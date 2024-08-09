@@ -12,7 +12,7 @@ export default component$(() => {
     {
       title: "Kontakti",
       items: [
-        { title: "Telefons | +371 26565320", href: "tel:+37126565320" },
+        { title: "Telefons | +371 22358845", href: "tel:+37122358845" },
         {title: "Epasts | epasts@epasts.lv"}
       ],
 
@@ -50,14 +50,8 @@ export default component$(() => {
 
           <div class="mr-4 text-sm text-gray-700 dark:text-slate-400">
             <span class="text-sm text-gray-600 dark:text-gray-400">
-              Visas tiesības aizsargātas ©2024 SIA Uznemums · Autors {" "}
+              Visas tiesības aizsargātas ©2024 SIA Uznemums
             </span>
-            <span
-                class="text-secondary-800 underline dark:text-gray-200"
-            >
-              {" "}
-              Ēriks Zalmanis
-            </span>{" "}
           </div>
         </div>
       </div>

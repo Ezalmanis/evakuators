@@ -9,7 +9,7 @@ import CallToAction from "~/components/widgets/CallToAction";
 
 import { SITE } from "~/config.mjs";
 // @ts-ignore
-const gallery: string[] = Object.values(import.meta.glob('../../src/images/cars/*.{png,jpg,jpeg,PNG,JPEG}', { eager: true})).map(value => value.default.replace('/public/', '/'));
+const gallery: string[] = Object.values(import.meta.glob('../../src/images/compressed/cars/*.{avif,jpg,jpeg,PNG,JPEG}', { eager: true})).map(value => value.default.replace('/public/', '/'));
 export default component$(() => {
   return (
     <>

@@ -8,8 +8,8 @@ export default component$(() => (
     <img
       src={logoSrc}
       class="inline-block mr-1"
-      width={32}
-      height={32}
+      width={64}
+      height={64}
       alt="Auto SOS 24 logo"
       loading="lazy"
     />

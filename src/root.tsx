@@ -126,7 +126,6 @@ Zemais evakuators"
         />
         <link rel="manifest" href="/manifest.json" />
         <RouterHead />
-        <DarkThemeLauncher />
         <ServiceWorkerRegister />
       </head>
       <body class="bg-white tracking-tight text-gray-900 antialiased dark:bg-gray-900 dark:text-slate-300">

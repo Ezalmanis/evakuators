@@ -2,6 +2,7 @@ import {component$} from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 import HeroImage from "/public/images/cars/varonis.jpg"
 import Stats from "~/components/widgets/Stats";
+import HeroFimage from "public/images/cars/varonis.jpg?jsx"
 
 const coverImage = HeroImage;
 
@@ -58,8 +59,9 @@ export default component$(() => {
                 </div>
               </div>
             </div>
-            <div class="image-wrapper large">
+            <div>
               <Image
+                  width={640}
                   src={coverImage}
                   layout="constrained"
                   alt="Bilde ar evakuatoru"
@@ -68,9 +70,7 @@ export default component$(() => {
                   breakpoints={[320, 480, 640, 768, 1024]}
               />
               <Stats/>
-
           </div>
-
         </div>
 
       </div>

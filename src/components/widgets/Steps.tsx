@@ -86,7 +86,6 @@ export default component$(() => {
               height={704}
               alt={image.alt}
               class="inset-0 w-full rounded-md bg-gray-500 object-cover object-top shadow-lg dark:bg-slate-700 md:absolute md:h-full"
-              breakpoints={[320, 480, 640, 1024]}
             />
           )}
         </div>

@@ -60,13 +60,13 @@ export default component$(() => {
             </div>
             <div>
               <Image
+                  fetchpriority={'high'}
                   width={640}
                   src={coverImage}
                   layout="constrained"
                   alt="Bilde ar evakuatoru"
                   class="mx-auto lg:mr-0 w-full drop-shadow-2xl rounded-md"
                   priority={true}
-                  breakpoints={[320, 480, 640, 768, 1024]}
               />
               <Stats/>
           </div>

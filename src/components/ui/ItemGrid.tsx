@@ -29,7 +29,6 @@ export const ItemGrid = (props: Props) => {
                     alt="Bilde ar evakuatoru"
                     class="mx-auto lg:mr-0 w-full drop-shadow-2xl rounded-md"
                     priority={true}
-                    breakpoints={[160, 320, 480, 640, 768, 1024]}
                 />
             </div>
           </div>

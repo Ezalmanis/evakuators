@@ -1,6 +1,5 @@
 import {component$, useStore} from "@builder.io/qwik";
 import IconMenu from "~/components/icons/IconMenu"
-import { Dropdown } from 'flowbite-qwik'
 
 interface ItemProps {
   iconClass?: string;

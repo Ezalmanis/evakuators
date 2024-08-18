@@ -6,7 +6,6 @@ export const SITE = {
   description:
     "Evakuatora pakalpojumi",
 
-  origin: "https://qwind.pages.dev",
   basePathname: "/",
   trailingSlash: true,
 };

@@ -2,7 +2,6 @@ import {component$} from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 import HeroImage from "/public/images/cars/varonis.jpg"
 import Stats from "~/components/widgets/Stats";
-import HeroFimage from "public/images/cars/varonis.jpg?jsx"
 
 const coverImage = HeroImage;
 

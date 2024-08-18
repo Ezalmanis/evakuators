@@ -6,7 +6,6 @@ import {
 } from "@builder.io/qwik-city";
 
 import { RouterHead } from "~/components/common/RouterHead";
-import { DarkThemeLauncher } from "~/components/common/DarkThemeLauncher";
 
 // import "@fontsource-variable/inter";
 import styles from "~/assets/styles/global.css?inline";

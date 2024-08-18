@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "evakuators",
+  "name": "Auto SOS 24",
   "short_name": "Evakuatora pakalpojumi",
   "start_url": ".",
   "display": "standalone",

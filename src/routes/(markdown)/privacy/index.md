@@ -4,7 +4,7 @@ _Pēdējo reizi atjaunots_:  08.08.2024
 
 ## Savāktā informācija
 
-Mēs neglabājam Jūsu privātos datus, ja rodas jautājumi, lūdzu sazinieties ar mums pa epasts[at]epasts.lv
+Mēs neglabājam Jūsu privātos datus, ja rodas jautājumi, lūdzu sazinieties ar mums pa info[at]autosos24.lv
 
 ## Grozījumi privātuma politikā
 

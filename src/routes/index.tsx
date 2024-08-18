@@ -16,8 +16,7 @@ export default component$(() => {
       <Hero />
       <Features
         id={"Galerija"}
-        highlight="Galerija"
-        title="Mūsu darbi"
+        highlight="Mūsu darbi"
         subtitle="Šī ir tikai daļa no mūsu pārvestajiem aparātiem"
         pictures={gallery}
       />

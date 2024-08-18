@@ -13,7 +13,7 @@ export default component$(() => {
       title: "Kontakti",
       items: [
         { title: "Telefons | +371 22358845", href: "tel:+37122358845" },
-        {title: "Epasts | epasts@epasts.lv"}
+        {title: "Epasts | info@autosos24.lv"}
       ],
 
 
@@ -50,7 +50,7 @@ export default component$(() => {
 
           <div class="mr-4 text-sm text-gray-700 dark:text-slate-400">
             <span class="text-sm text-gray-600 dark:text-gray-400">
-              Visas tiesības aizsargātas ©2024 SIA Uznemums
+              Visas tiesības aizsargātas ©2024 SIA "AutoSOS 24"
             </span>
           </div>
         </div>

@@ -17,7 +17,6 @@ export default component$(() => {
       <Features
         id={"Galerija"}
         highlight="Mūsu darbi"
-        subtitle="Šī ir tikai daļa no mūsu pārvestajiem aparātiem"
         pictures={gallery}
       />
       <CallToAction />

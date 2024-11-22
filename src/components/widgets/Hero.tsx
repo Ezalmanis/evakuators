@@ -1,7 +1,7 @@
 import {component$} from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
-import HeroImage from "/src/images/cars/varonis.avif"
-import Stats from "~/components/widgets/Stats";
+import HeroImage from "/src/images/hero/varonis-1.avif"
+import Stats from "~/components/widgets/Stats"; 
 
 const coverImage = HeroImage;
 

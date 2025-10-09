@@ -1,9 +1,8 @@
 import {component$} from "@builder.io/qwik";
-import { Image } from "@unpic/qwik";
-import HeroImage from "/src/images/hero/varonis-1.avif"
+
+import Image from "../../../public/hero/varonis-1.avif?format=avif&jsx"
 import Stats from "~/components/widgets/Stats"; 
 
-const coverImage = HeroImage;
 
 interface LocationProps {
   x?: number;
@@ -27,7 +26,7 @@ export default component$(() => {
   return (
     <section class="relative md:-mt-[76px] lg:-mt-[80px] not-prose">
       <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
-      <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="relative container mx-auto px-4 sm:px-6">
         <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
         <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
             <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
@@ -57,17 +56,10 @@ export default component$(() => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <Image
-                  fetchpriority={'high'}
-                  width={640}
-                  src={coverImage}
-                  layout="constrained"
-                  alt="Bilde ar evakuatoru"
-                  class="mx-auto lg:mr-0 w-full drop-shadow-2xl rounded-md"
-                  priority={true}
-              />
+              </div>
+              <div>
+              <Image style={{width:'640px', height:'auto'}}/>
+
               <Stats/>
           </div>
         </div>

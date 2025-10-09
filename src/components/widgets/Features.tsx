@@ -9,7 +9,7 @@ interface Props {
   title?: any;
   subtitle?: any;
   highlight?: any;
-  pictures: string[];
+  pictures: any;
   isDark?: boolean;
   classes?: any;
 }

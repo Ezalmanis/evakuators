@@ -1,15 +1,15 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-
 import Hero from "~/components/widgets/Hero";
 import Features from "~/components/widgets/Features";
 
-import CallToAction from "~/components/widgets/CallToAction";
+import CallToAction from "~/components/widgets/CallToAction"
 
 
-import { SITE } from "~/config.mjs";
-// @ts-ignore
-const gallery: string[] = Object.values(import.meta.glob('../../src/images/compressed/cars/*.{avif,jpg,jpeg,PNG,JPEG}', { eager: true})).map(value => value.default.replace('/public/', '/'));
+
+const gallery: string[] = Object.values(import.meta.glob('../../public/cars/*.{avif,jpg,jpeg,PNG,JPEG}', { eager: true})).map(
+  (value) => (value as { default: string }).default
+);
 export default component$(() => {
   return (
     <>
@@ -25,11 +25,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: SITE.title,
+  title: "Evakuators",
   meta: [
     {
-      name: "description",
-      content: SITE.description,
+      name: "Evakuators",
+      content: "Evakuatora pakalpojumi",
     },
   ],
 };

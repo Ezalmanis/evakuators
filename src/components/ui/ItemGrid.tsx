@@ -2,7 +2,7 @@ import { twMerge } from "tailwind-merge";
 import {Image} from "@unpic/qwik";
 
 interface Props {
-  pictures?: string[];
+  pictures?: any[];
   classes?: Record<string, string>;
 }
 
@@ -14,7 +14,7 @@ export const ItemGrid = (props: Props) => {
     panel: panelClass = "",
   } = classes as Record<string, string>;
 
-  return (
+    return (
     pictures.length && (
       <div class={twMerge("grid mx-auto gap-8", containerClass)}>
         {pictures.map((value, index) => (
